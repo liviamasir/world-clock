@@ -1,12 +1,14 @@
 h1 {
+  margin: 0 0 20px;
   text-align: center;
-  font-family: sans-serif;
-  font-size: 36px;
+  font-family: "Niconne", cursive;
+  font-size: 80px;
+  color: #24190a;
 }
 
 h2 {
   margin: 0 0 5px;
-  font-size: 28px;
+  font-size: 35px;
 }
 
 select {
@@ -15,17 +17,22 @@ select {
   padding: 10px;
   border-radius: 4px;
   font-size: 18px;
+  font-family: "Cormorant Garamond", serif;
 }
 
 body {
+  background-image: url("https://cdn.shopify.com/s/files/1/0354/5110/9513/products/GP0256-Landscape_900x.jpg?v=1590042755");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   background-color: #f9f7fe;
-  font-family: sans-serif;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .container {
   max-width: 600px;
   margin: 60px auto;
-  background: white;
+  background: #efe7e8;
   padding: 30px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
 
@@ -38,6 +45,7 @@ body {
   margin: 10px 0;
   padding: 20px 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  color: #c98f63;
 }
 
 .city:last-child {
@@ -45,12 +53,14 @@ body {
 }
 
 .date {
-  opacity: 0.7;
+  opacity: 0.9;
+  font-size: 20px;
 }
 
 .time {
   font-size: 48px;
   font-weight: bold;
+  color: #ca8368;
 }
 
 .time small {
