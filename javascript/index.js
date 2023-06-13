@@ -47,10 +47,9 @@ function updateCity(event) {
   )}</small>
           </div>
           </div>
+          <a href="index.html">All cities</a>
   `;
 }
-
-setInterval(updateCity);
 
 let citiesSelectElement = document.querySelector("#city");
 
